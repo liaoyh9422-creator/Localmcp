@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Design tokens for 我的工具
+  data source: unified-ui-engine/data/color-palettes.json
+  matched: color-devtools-zinc-lime, color-ops-dark-amber
+  product: product-devtools-ide / industrial utility
+-->
+<resources>
+    <color name="md_bg">#FF0B0F14</color>
+    <color name="md_surface">#FF121821</color>
+    <color name="md_surface_2">#FF1A2230</color>
+    <color name="md_surface_3">#FF232D3F</color>
+    <color name="md_stroke">#FF2C384C</color>
+    <color name="md_stroke_strong">#FF3D4D66</color>
+
+    <color name="md_text_primary">#FFF4F7FB</color>
+    <color name="md_text_secondary">#FFA9B6C9</color>
+    <color name="md_text_muted">#FF7E8CA3</color>
+
+    <color name="md_primary">#FF2DD4BF</color>
+    <color name="md_on_primary">#FF003730</color>
+    <color name="md_primary_container">#FF0F3D38</color>
+    <color name="md_on_primary_container">#FF99F6E4</color>
+
+    <color name="md_secondary">#FFFBBF24</color>
+    <color name="md_on_secondary">#FF3B2A00</color>
+    <color name="md_secondary_container">#FF3F3100</color>
+
+    <color name="md_error">#FFF87171</color>
+    <color name="md_success">#FF4ADE80</color>
+    <color name="md_warning">#FFFBBF24</color>
+    <color name="md_info">#FF38BDF8</color>
+
+    <color name="md_nav_bg">#FF0E141C</color>
+    <color name="md_nav_indicator">#332DD4BF</color>
+    <color name="md_log_bg">#FF0A1018</color>
+    <color name="md_chip_bg">#FF1E293B</color>
+</resources>

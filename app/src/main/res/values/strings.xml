@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的工具</string>
+
+    <string name="tab_home">主页</string>
+    <string name="tab_mcp">MCP</string>
+    <string name="tab_log">日志</string>
+    <string name="tab_settings">设置</string>
+
+    <string name="home_status_idle">当前无任务</string>
+    <string name="home_status_running">任务执行中…</string>
+    <string name="home_status_done">最近输出：%1$s</string>
+
+    <string name="tool_merge_title">APKS 合并改包</string>
+    <string name="tool_lua2dex_title">Lua 转 DEX</string>
+    <string name="tool_lua2dex_modded_title">Lua 转 DEX（魔改 GG）</string>
+    <string name="tool_lua2dex_modded_sub">Nqfes 等 · luaj 短名 · 可选混淆</string>
+    <string name="tool_manifest_title">清单编辑</string>
+    <string name="tool_dex_title">DEX 查看</string>
+    <string name="dex_no_file">未选择 APK / DEX</string>
+    <string name="dex_pick">选择文件</string>
+    <string name="dex_pick_entry">选择 DEX</string>
+    <string name="dex_filter">类名筛选</string>
+    <string name="dex_search_class">筛选类</string>
+    <string name="dex_to_smali">转 smali</string>
+    <string name="dex_to_java">转 Java</string>
+    <string name="dex_export_code">导出代码</string>
+    <string name="dex_code_hint">选择类后查看 smali / Java</string>
+    <string name="dex_loaded">已加载 %1$d 个 DEX，%2$d 个类</string>
+    <string name="dex_class_count">类：%1$d</string>
+    <string name="dex_selected_class">已选：%1$s</string>
+    <string name="dex_pick_class_first">请先选择类</string>
+    <string name="dex_decompiling_smali">正在生成 smali…</string>
+    <string name="dex_decompiling_java">正在反编译 Java…</string>
+    <string name="dex_export_ok">代码已导出</string>
+    <string name="manifest_no_file">未选择 APK / APKS / XAPK</string>
+    <string name="manifest_pick">选择文件</string>
+    <string name="manifest_reload">重新加载</string>
+    <string name="manifest_validate">校验</string>
+    <string name="manifest_save_apk">保存到 APK</string>
+    <string name="manifest_export_xml">导出 XML</string>
+    <string name="manifest_search">搜索</string>
+    <string name="manifest_find_next">下一个</string>
+    <string name="manifest_goto_line">行号</string>
+    <string name="manifest_goto">跳转</string>
+    <string name="manifest_editor_hint">清单 XML 将显示在这里</string>
+    <string name="manifest_pick_first">请先选择 APK / APKS / XAPK 等文件</string>
+    <string name="manifest_empty">没有可保存的内容</string>
+    <string name="manifest_loading">正在加载清单…</string>
+    <string name="manifest_loaded">清单已加载</string>
+    <string name="manifest_loaded_container">已从分包容器加载 base（共 %1$d 个 APK）</string>
+    <string name="manifest_container_hint">分包容器：共 %1$d 个 APK，已选 base 模块编辑；保存输出为单个已签名 APK</string>
+    <string name="manifest_saved">已写回并签名</string>
+    <string name="manifest_save_ok">已保存：%1$s</string>
+    <string name="manifest_export_ok">XML 已导出</string>
+    <string name="manifest_search_empty">请输入搜索内容</string>
+    <string name="manifest_search_none">未找到</string>
+    <string name="manifest_goto_invalid">行号无效</string>
+    <string name="lua2dex_no_file">未选择 Lua 文件</string>
+    <string name="lua2dex_no_result">尚未生成 dex</string>
+    <string name="lua2dex_pick">选择 Lua 文件</string>
+    <string name="lua2dex_start">开始编译</string>
+    <string name="lua2dex_export">导出 DEX</string>
+    <string name="lua2dex_obfuscate">源码/类名混淆</string>
+    <string name="lua2dex_target_stock">目标：标准 org.luaj.vm2</string>
+    <string name="lua2dex_target_modded">目标：魔改 GG luaj</string>
+    <string name="lua2dex_pick_first">请先选择 Lua 文件</string>
+    <string name="lua2dex_running">正在编译…</string>
+    <string name="lua2dex_result_ok">编译成功</string>
+    <string name="lua2dex_ok">编译完成，用时 %1$d ms</string>
+
+    <string name="log_empty">暂无日志</string>
+    <string name="clear_log">清空</string>
+    <string name="back">返回</string>
+
+    <string name="settings_permission_title">权限</string>
+    <string name="settings_app_info">应用：%1$s\n版本：%2$s\n包名：%3$s</string>
+    <string name="settings_keepalive_title">后台保活</string>
+    <string name="settings_battery_status">电池优化：%1$s\nMCP：%2$s</string>
+    <string name="settings_battery_ok">已忽略</string>
+    <string name="settings_battery_limited">未忽略</string>
+    <string name="settings_battery_mcp_on">运行中</string>
+    <string name="settings_battery_mcp_off">未运行</string>
+    <string name="settings_battery_system">忽略电池优化</string>
+    <string name="settings_battery_system_done">已忽略电池优化</string>
+    <string name="settings_battery_shizuku">Shizuku 放行后台</string>
+    <string name="settings_battery_opened">已打开系统设置</string>
+    <string name="settings_battery_applying">正在设置…</string>
+    <string name="settings_battery_shizuku_done">已执行</string>
+
+    <string name="mcp_capability_title">能力开关</string>
+    <string name="mcp_preset_title">工具预设</string>
+    <string name="mcp_preset_hint">Agent=精简约30个 · 完整=分类内全部 · 安全=无安装/执行</string>
+    <string name="mcp_preset_agent">Agent</string>
+    <string name="mcp_preset_full">完整</string>
+    <string name="mcp_preset_safe">安全</string>
+    <string name="mcp_port_hint">端口</string>
+    <string name="mcp_start">启动</string>
+    <string name="mcp_stop">停止</string>
+    <string name="mcp_file_permission">文件权限</string>
+    <string name="mcp_shizuku_auth">Shizuku 授权</string>
+    <string name="mcp_shizuku_status">Shizuku：%1$s</string>
+    <string name="mcp_status_stopped">未运行</string>
+    <string name="mcp_status_running">运行中\n%1$s\n%2$s</string>
+
+    <string name="no_file">未选择 APK / APKS</string>
+    <string name="pick_apk">选择 APK 文件</string>
+    <string name="pick_so">选择 so 文件</string>
+    <string name="start_run">开始执行</string>
+    <string name="export_apk">导出 APK</string>
+    <string name="install_apk">安装 APK</string>
+    <string name="no_so">未选择 so 文件</string>
+    <string name="so_selected">已选 %1$d 个 so → lib/arm64-v8a/</string>
+    <string name="pick_apk_first">请先选择 APK / APKS 文件</string>
+    <string name="pick_so_first">请先选择 so 文件</string>
+    <string name="no_splits">未在文件中找到 split APK</string>
+    <string name="merge_ok">完成，用时 %1$d ms</string>
+    <string name="saved_ok">已导出</string>
+    <string name="error">错误</string>
+    <string name="merge_cancelled">已取消</string>
+</resources>
