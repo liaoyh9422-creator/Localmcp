@@ -2,6 +2,8 @@
 
 > Android 设备上的全能 APK 处理工具包，内置 MCP 协议服务，支持 AI Agent 远程操控。
 
+[**📖 English Version**](./README_EN.md)
+
 ## 目录
 
 - [项目概述](#项目概述)
